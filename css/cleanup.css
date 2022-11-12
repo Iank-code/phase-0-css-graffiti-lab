@@ -1,1 +1,14 @@
 /* write your override styles here */
+#wall .tag-1 {
+    display: none;
+}
+
+#wall .parent > #tag-4{
+    display: none;
+}
+#wall div[class=".parent"] > #tag-5 [id="slick"]{
+    display: none;
+}
+#wall div[class=".parent"] > #tag-5 [id="slick"] + div[class=".parent"] > div +div[id="tag-6"]{
+    display: none;
+}
